@@ -1,0 +1,123 @@
+/*
+ * MAIN STYLE
+ * @author Fajar <delve_brain@hotmail.com>
+ *
+ */
+
+/* COMMON */
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600');
+
+* {box-sizing:border-box;word-wrap:break-word}
+body,html{margin:0;padding:0}
+
+body{min-height:100%;font-size:12px;font-family:'Poppins',Helvetica,Arial,sans-serif;letter-spacing:normal;font-smoothing:antialiased;-o-font-smoothing:antialiased;-ms-font-smoothing:antialiased;-moz-font-smoothing:antialiased;-webkit-font-smoothing:antialiased;overflow:hidden;background:#000;color:#FFF}
+
+.logo-liner {
+	position: absolute;
+	z-index: 1;
+	width: 180px;
+	height: 200%;
+	top: -50%;
+	left: -6px;
+	right: 0;
+	margin: 0 auto;
+	background: #000;
+	-webkit-transform:rotate(45deg);
+	-ms-transform:rotate(45deg);
+	transform:rotate(45deg);
+		transform-origin: center;
+}
+.logo-liner .shape {
+	position: absolute;
+	width: 57px;
+	height: 100%;
+	transition:all 3s ease;-o-transition:all 3s ease;-ms-transition:all 3s ease;-moz-transition:all 3s ease;-webkit-transition:all 3s ease;
+}
+.logo-liner .shape-1 {
+	top: -100%;
+	left: 0;
+}
+.logo-liner .shape-2 {
+	bottom: -100%;
+	left: 62px;
+}
+.logo-liner .shape-1,
+.logo-liner .shape-2 {
+	background: #00B0F0;
+}
+.logo-liner .shape-3 {
+	top: -100%;
+	left: 124px;
+	width: 57px;
+	background: #EEE;
+}
+.logo-liner .shape-1.active,
+.logo-liner .shape-3.active {
+	top: 100%;
+}
+.logo-liner .shape-2.active {
+	bottom: 100%;
+}
+.logo-shape {
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	left: 0;
+	right: 0;
+	margin: -100px auto 0 auto;
+	width: 300px;
+	height: 200px;
+	display: none;
+}
+.logo-shape .shape {
+	position: absolute;
+	width: 200px;
+	height: 100%;
+	top: 0;
+}
+.logo-shape .shape-1,
+.logo-shape .shape-2 {
+	left: 0;
+	-webkit-clip-path: polygon(40% 20%, 80% 20%, 0 100%, 0 60%);
+	clip-path: polygon(40% 20%, 80% 20%, 0 100%, 0 60%);
+	background: #00B0F0;
+}
+.logo-shape .shape-2 {
+	left: 88px;
+}
+.logo-shape .shape-3 {
+	left: 96px;
+	background: #EEE;
+	-webkit-clip-path: polygon(100% 0, 100% 40%, 60% 80%, 20% 80%);
+	clip-path: polygon(100% 0, 100% 40%, 60% 80%, 20% 80%);
+}
+
+.typing-box {
+	position: fixed;
+	z-index: 2;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+
+/* Smartphones */
+@media (min-width: 300px) { }
+
+/* landscape phones */
+@media (min-width: 450px) { }
+
+/* Tablets */
+@media (min-width: 600px) { }
+
+/* Bigger tablets */
+@media (min-width: 750px) { }
+
+/* Desktop screen or landscape tablet */
+@media (min-width: 900px) { }
+
+/* Bigger desktop */
+@media (min-width: 1100px) { }
+
+/* Widescreens */
+@media (min-width: 1500px) { }
