@@ -1,13 +1,8 @@
-# Newbielabs Studio Official Website
+## Newbielabs Studio
+The repository for nwblb.com
 
-The Source of Newbielabs Studio Website.
+**Created by**
+Asep Fajar Nugraha <kucaykojek@gmail.com>>
 
-CURRENT ADDRESS: [https://nwblb.id](https://nwblb.id)
-
-Creator
-----
-Asep Fajar Nugraha
-
-License
-----
+**License**
 MIT
