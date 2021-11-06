@@ -2,7 +2,7 @@
 The repository for nwblb.com
 
 **Created by**
-Asep Fajar Nugraha <kucaykojek@gmail.com>>
+Asep Fajar Nugraha <kucaykojek@gmail.com>
 
 **License**
 MIT
